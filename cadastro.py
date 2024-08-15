@@ -3,7 +3,7 @@ from PySimpleGUI import PySimpleGUI as sg
 # Layout
 sg.theme('Dark Blue 3')
 layout = [
-    [sg.Text('Usuário'),sg.Input(key='usuário')],
+    [sg.Text('Usuário'),sg.Input(key='usuario')],
     [sg.Text('Senha'),sg.Input(key='senha',password_char='*')],
     [sg.Checkbox('Salvar o login?')],
     [sg.Button('Entrar')]
